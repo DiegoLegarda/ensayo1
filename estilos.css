@@ -7,3 +7,34 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'zona1 zona2''zona3 zona3';
+    background-color: cadetblue;
+    max-width: 100%;
+    gap: 10px; 
+    padding: 5px;   
+}
+
+.container div{
+    border:2px solid black ;
+    padding: 30px;
+    align-items: center; 
+    text-align: center;   
+}
+#formulario{
+    grid-area: zona1;
+}
+#descripcion{
+    grid-area: zona2;
+}
+#imagen{
+ grid-area: zona3;
+ height:300px;
+}
+.imagenes{
+    width: 100%;
+    height: 100%;
+}
