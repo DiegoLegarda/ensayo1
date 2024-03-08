@@ -22,7 +22,5 @@ function llenarDatos(datos){
     }
 }
 
-function estadistica(){
-    numero=resizeTo AudioNode;
-}
+
 
